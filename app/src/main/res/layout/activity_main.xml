@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d1f5c"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <ImageButton
+            android:id="@+id/shopper_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="70dp"
+            android:onClick="openShopper"
+            app:srcCompat="@drawable/shopper_icon"
+            android:elevation="10dp"
+            android:backgroundTint="#2d1f5c" />
+
+        <ImageButton
+            android:id="@+id/social_media_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="70dp"
+            android:onClick="openSocial"
+            app:srcCompat="@drawable/social_media1"
+            android:elevation="10dp"
+            android:backgroundTint="#2d1f5c" />
+
+    </GridLayout>
+
+</RelativeLayout>

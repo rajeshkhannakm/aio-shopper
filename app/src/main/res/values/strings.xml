@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Youngster</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="shopping_sites">
+        <item>Flipkart</item>
+        <item>Amazon</item>
+        <item>Snapdeal</item>
+        <item>Myntra</item>
+        <item>eBay</item>
+        <item>Jabong</item>
+        <item>HomeShop18</item>
+        <item>ShopClues</item>
+    </string-array>
+
+    <string-array name="shopping_sites_links">
+        <item>https://www.flipkart.com/</item>
+        <item>https://www.snapdeal.com/</item>
+        <item>http://www.amazon.in/</item>
+        <item>http://www.myntra.com/</item>
+        <item>http://www.ebay.in/</item>
+        <item>http://www.jabong.com/</item>
+        <item>http://www.homeshop18.com/</item>
+        <item>http://www.shopclues.com/</item>
+    </string-array>
+
+</resources>
